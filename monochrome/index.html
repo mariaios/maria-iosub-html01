@@ -82,17 +82,16 @@
 
         <div class="header-search">
           <form action="/">
-            <label for="search"><i class="fas fa-search"></i></label>
+            <label for="search"><button
+                type="submit"
+                name="search-submit"
+              ><i class="fas fa-search"></i></button></label>
             <input
               type="search"
               name="q"
               id="search"
               placeholder="    Search"
             >
-            <button
-              type="submit"
-              name="search-submit"
-            >Submit</button>
             <!-- nu stiu cum sa fac butonul sa nu se vada, din ce am citit merge si fara buton cu "Enter" in loc de submit -->
 
           </form>
@@ -136,30 +135,48 @@
     <div class="header-bottom">
       <nav class="nav-primary">
         <ul>
-          <li><a
+          <li>
+            <a
               href=""
               title="New arrivals"
-            >New arrivals</a></li>
-          <li><a
+            >New arrivals
+            </a>
+          </li>
+          <li>
+            <a
               href=""
               title="Brands"
-            >Brands</a></li>
-          <li><a
+            >Brands
+            </a>
+          </li>
+          <li>
+            <a
               href=""
               title="Men's"
-            >Men's</a></li>
-          <li><a
+            >Men's
+            </a>
+          </li>
+          <li>
+            <a
               href=""
               title="Women's"
-            >Women's</a></li>
-          <li><a
+            >Women's
+            </a>
+          </li>
+          <li>
+            <a
               href=""
               title="Accessories"
-            >Accessories</a></li>
-          <li><a
+            >Accessories
+            </a>
+          </li>
+          <li>
+            <a
               href=""
               title="Lookbook"
-            >Lookbook</a></li>
+            >Lookbook
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- /.nav-primary -->
@@ -483,27 +500,33 @@
     </section>
     <!-- /.home-catalog-prieview -->
 
-    <section class="home-story">
-      <div class="story-image">
-        <img
-          src="images/photo-for-story.png"
-          alt="A watch next to other devices on a table"
-        >
-      </div>
+    <section class="home-marketing">
+      <aside>
+        <figure class="home-marketing-image">
+          <img
+            src="images/photo-for-story.png"
+            alt="A watch next to other devices on a table"
+          >
+        </figure>
+      </aside>
 
-      <h1>Watches for entrepreneurs</h1>
+      <main>
+        <h1>Watches for entrepreneurs</h1>
 
-      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-        will give you a complete account of the system, and expound the actual teachings of the great explorer of the
-        truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.</p>
+        <p>
+          But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+          will give you a complete account of the system, and expound the actual teachings of the great explorer of the
+          truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
+        </p>
 
-      <p>
-        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-        will give you a complete account of the system, and expound the actual teachings of the great explorer of the
-        truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
-      </p>
+        <p>
+          But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+          will give you a complete account of the system, and expound the actual teachings of the great explorer of the
+          truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
+        </p>
+      </main>
     </section>
-    <!-- /.home-story -->
+    <!-- /.home-marketing -->
 
     <section class="home-catalog-prieview">
       <header>
@@ -654,22 +677,21 @@
           <div class="product-tile-pricing">
             <span class="product-tile-regular-price">$425</span>
           </div>
-
-          <footer>
-            <a
-              href=""
-              title="View all"
-            >
-              <button
-                class="view-all-button"
-                title="View all"
-                type="button"
-              >view all</button>
-            </a>
-          </footer>
         </article>
         <!-- /.product-tile -->
 
+        <footer>
+          <a
+            href=""
+            title="View all"
+          >
+            <button
+              class="view-all-button"
+              title="View all"
+              type="button"
+            >view all</button>
+          </a>
+        </footer>
       </main>
       <!-- /.product-tiles -->
     </section>
@@ -824,22 +846,21 @@
           <div class="product-tile-pricing">
             <span class="product-tile-regular-price">$425</span>
           </div>
-
-          <footer>
-            <a
-              href=""
-              title="View all"
-            >
-              <button
-                class="view-all-button"
-                title="View all"
-                type="button"
-              >view all</button>
-            </a>
-          </footer>
         </article>
         <!-- /.product-tile -->
 
+        <footer>
+          <a
+            href=""
+            title="View all"
+          >
+            <button
+              class="view-all-button"
+              title="View all"
+              type="button"
+            >view all</button>
+          </a>
+        </footer>
       </main>
       <!-- /.product-tiles -->
     </section>
@@ -849,30 +870,96 @@
 
   <footer class="footer">
     <div class="footer-menu-contact">
-      <ul>
-        <li>
-          <a
-            href="tel:+44 (0)10 2345 6789"
-            title="Call us"
-          >
-            call us <br>+44 (0)10 2345 6789
-          </a>
-        </li>
-        <li>
-          <a
-            href=""
-            title="Email customer care"
-          >email customer care
-          </a>
-        </li>
-        <li>
-          <a
-            href=""
-            title="See mobile version"
-          >see mobile version
-          </a>
-        </li>
-      </ul>
+      <div class="footer-menu-contact-direct">
+        <ul>
+          <li>
+            <a
+              href="tel:+44 (0)10 2345 6789"
+              title="Call us"
+            >
+              call us <br>+44 (0)10 2345 6789
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              title="Email customer care"
+            >email customer care
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              title="See mobile version"
+            >see mobile version
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.footer-menu-contact-direct -->
+
+      <div class="footer-menu-subscribe">
+        <form action="/">
+          <label for="footer-subscribe">sign up for our newsletter</label><br>
+          <input
+            type="email"
+            name="footer-subscribe"
+            id="footer-subscribe"
+            required
+          ><br>
+          <button
+            type="submit"
+            name="footer-submit"
+            class="footer-submit"
+          >Submit</button>
+        </form>
+      </div>
+      <!-- /.footer-menu-subscribe -->
+
+      <div class="footer-menu-contact-icons">
+        <ul>
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Youtube"
+            ><i class="fab fa-youtube"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Twitter"
+            ><i class="fab fa-twitter"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Facebook"
+            ><i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Instagram"
+            ><i class="fab fa-instagram-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.footer-contact-icons -->
     </div>
     <!-- /.footer-menu-contact -->
 
@@ -942,69 +1029,6 @@
       </ul>
     </div>
     <!-- /.footer-menu-about -->
-
-    <div class="footer-menu-subscribe">
-      <form action="/">
-        <label for="footer-subscribe">sign up for our newsletter</label><br>
-        <input
-          type="email"
-          name="footer-subscribe"
-          id="footer-subscribe"
-          required
-        ><br>
-        <button
-          type="submit"
-          name="footer-submit"
-          class="footer-submit"
-        >Submit</button>
-      </form>
-
-      <div class="footer-contact-icons">
-        <ul>
-          <li>
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Youtube"
-            ><i class="fab fa-youtube"></i>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Twitter"
-            ><i class="fab fa-twitter"></i>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Facebook"
-            ><i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Instagram"
-            ><i class="fab fa-instagram-square"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.footer-contact-icons -->
-    </div>
-    <!-- /.footer-menu-subscribe -->
   </footer>
   <!-- /.footer -->
 </body>
