@@ -1,0 +1,42 @@
+h1 {
+  color: red;
+  text-decoration: underline;
+}
+
+p {
+  color: grey;
+}
+
+ol a {
+  color: green;
+  text-decoration: line-through;
+  text-decoration-color: blue;
+}
+
+h2 {
+  font-weight: normal;
+  text-shadow: 2px 2px 5px yellow;
+}
+
+h3 {
+  text-decoration: underline;
+  text-decoration-color: brown;
+  text-decoration-style: dotted;
+  text-shadow: 0 3px 5px green;
+}
+
+ul li {
+  text-decoration: underline;
+  color: purple;
+}
+
+p b {
+  color: yellow;
+  text-decoration: yellow;
+}
+
+p i {
+  color: blue;
+  font-weight: bold;
+  text-decoration: line-through;
+}
