@@ -1,1 +1,41 @@
+/* In documentul din director, creaza un element div cu clasa
+my-div care sa aibe latimea de 500px, inaltimea de 102px, fundalul
+ rosu si bordura verde de 1px. Elementul sa fie si centrat. */
 
+.my-div {
+  width: 500px;
+  height: 102px;
+  border: 1px solid green;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: red;
+}
+
+/* exercitiul 5
+Creeaza un div cu clasa purple si fundalul mov, bordura de 2 px punctata verde, colturile rotunjite de 40 cu valorile pentru padding:
+padding-left -> 20px
+padding-top -> 10px
+padding-bottom -> 0
+padding-right -> 15px; */
+
+.purple {
+  background-color: purple;
+  border: 2px solid green;
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-right: 15px;
+}
+
+/* 7 */
+
+.transparent {
+  width: 300px;
+  border: 2px solid red;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
