@@ -1,4 +1,61 @@
+body {
+  padding: 80px 40px 40px 30px;
+}
+
 .container {
-  border: 1px solid #000; 
+  border: 1px solid #000;
   padding: 5px;
+  position: relative;
+}
+
+.nav-top {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: green;
+  padding: 15px;
+}
+
+.nav-bottom {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  /* bottom: -770px; */
+  /* am avut ideea sa il duc jos dar a protestat pixelltabul asa ca
+  ramane peste text pana aflu la curs ce si cum :)) */
+  background-color: blue;
+  color: brown;
+  padding: 15px;
+}
+
+.nav-bottom a {
+  color: brown;
+}
+
+.nav-top a {
+  color: white;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.legend {
+  position: absolute;
+  top: -10px;
+  background-color: gray;
+  border: 1px solid red;
+  /*  float: left;
+      margin: -15px 0 0 0; */
+  /* si fara pozition pe legend si container face acelasi lucru
+  tot intrebare pentru curs*/
+}
+
+.sup {
+  position: relative;
+  bottom: 4px;
+  font-size: small;
 }

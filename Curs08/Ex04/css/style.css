@@ -1,4 +1,61 @@
+body {
+  padding: 40px 100px 100px 100px;
+}
+
 .container {
-  border: 1px solid #000; 
+  border: 1px solid #000;
   padding: 5px;
+  position: relative;
+}
+
+#ozone {
+  margin: 0 0 50px 0;
+  float: left;
+  width: 100%;
+}
+/* intrebare pt curs: cum creez spatiu in partea de jos ca sa
+incapa nav top cand dau scroll, fara acel float nu am reusit
+(in afara de <br> in html) */
+
+.nav-top {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: black;
+}
+
+.nav-bottom {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: green;
+}
+
+a {
+  padding-right: 10px;
+}
+
+.nav-top a {
+  color: white;
+}
+
+.nav-bottom a {
+  color: white;
+}
+
+.container .legend {
+  position: absolute;
+  top: -10px;
+  background-color: grey;
+  border: 1px solid red;
+}
+
+.sub {
+  font-size: small;
+  position: relative;
+  top: 4px;
 }
