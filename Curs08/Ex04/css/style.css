@@ -50,6 +50,7 @@ a {
 .container .legend {
   position: absolute;
   top: -10px;
+  left: 10px;
   background-color: grey;
   border: 1px solid red;
 }
@@ -57,5 +58,5 @@ a {
 .sub {
   font-size: small;
   position: relative;
-  top: 4px;
+  bottom: -4px;
 }
