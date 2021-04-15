@@ -1,1 +1,14 @@
+/* ex6 */
+ul ~ p {
+  border: 1px dotted black;
+}
 
+/* ex7 */
+ul > li > ul > li {
+  text-decoration: underline;
+}
+
+/* ex3 */
+h1 + h2 {
+  color: green;
+}
