@@ -1,10 +1,8 @@
-/* ex6 */
-ul ~ p {
-  border: 1px dotted black;
+p b {
+  color: purple;
 }
 
-/* ex7 */
-ul > li > ul > li {
+ul i {
   text-decoration: underline;
 }
 
@@ -12,3 +10,61 @@ ul > li > ul > li {
 h1 + h2 {
   color: green;
 }
+
+h2 + h3 {
+  margin-top: 8px;
+  text-decoration: underline dotted red;
+}
+
+ol ~ h3 {
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+/* ex6 */
+ul ~ p {
+  border: 1px dotted black;
+  padding: 20px;
+}
+
+/* ex7 */
+ul > li > ul > li {
+  text-decoration: underline;
+}
+
+p i {
+  color: blue;
+}
+
+.u-line i {
+  text-decoration: underline;
+}
+
+h3 + p {
+  margin-top: 0;
+}
+
+ol + h2 {
+  text-decoration: underline;
+}
+
+.random ~ p {
+  padding: 10px 12px;
+}
+
+.last-list ~ ul a {
+  color: yellow;
+}
+
+.my-list > li {
+  text-decoration: underline;
+}
+
+.nested ul > li > ul > li a {
+  padding: 5px;
+  display: inline-block;
+}
+/* merge cu ".nested ul > li a" sau ".nested li > ul > li a"
+dar in pixelltab mi-a cerut  Incearca ".nested ul > li > ul > li a"
+Asta ar insemna ca atac a-urile din ul-urile de nivel 2 din interiorul
+ .nested, care nu exista*/
