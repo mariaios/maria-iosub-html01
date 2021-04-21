@@ -5,8 +5,39 @@
 }
 
 /* ex 7 */
+p b {
+  position: relative;
+}
+
 p:hover b {
   color: red;
   position: relative;
   top: -2px;
+}
+
+.main a:hover {
+  text-decoration: none;
+}
+
+.main li:nth-of-type(2n) a:hover {
+  color: red;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+p i {
+  position: relative;
+}
+
+p:hover i {
+  position: relative;
+  top: -2px;
+  left: 2px;
+}
+
+.secondary a:hover {
+  color: green;
+  text-decoration: overline;
 }
