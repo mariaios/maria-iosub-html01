@@ -1,68 +1,5 @@
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-    url('../fonts/Roboto-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Julius Sans One';
-  src: url('../fonts/JuliusSansOne-Regular.woff2') format('woff2'),
-    url('../fonts/JuliusSansOne-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
-    url('../fonts/Roboto-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-    url('../fonts/Roboto-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
-    url('../fonts/Roboto-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Julius Sans One';
-  src: url('../fonts/JuliusSansOne-Regular.woff2') format('woff2'),
-    url('../fonts/JuliusSansOne-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
   src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
     url('../fonts/Roboto-BlackItalic.woff') format('woff');
   font-weight: 900;
@@ -72,55 +9,10 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
-    url('../fonts/Roboto-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
-    url('../fonts/Roboto-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
-    url('../fonts/Roboto-Italic.woff') format('woff');
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff');
   font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-    url('../fonts/Roboto-Bold.woff') format('woff');
-  font-weight: bold;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-MediumItalic.woff') format('woff');
-  font-weight: 500;
-  font-style: italic;
   font-display: swap;
 }
 
@@ -144,17 +36,84 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-    url('../fonts/Roboto-Regular.woff') format('woff');
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+    url('../fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Julius Sans One';
+  src: url('../fonts/JuliusSansOne-Regular.woff2') format('woff2'),
+    url('../fonts/JuliusSansOne-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+    url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+    url('../fonts/Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
 
 html,
 body,
@@ -285,7 +244,7 @@ table {
 
 /* code goes here */
 body {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Roboto', sans-serif;
   color: #707070;
   font-size: 16px;
 }
@@ -397,7 +356,7 @@ body a {
 .nav-primary li a {
   display: inline-block;
   padding: 6px 16px;
-  border-radius: 20px;
+  border-radius: 50px;
   transition: background-color 0.2s linear, color 0.4s linear;
 }
 
@@ -417,7 +376,7 @@ body a {
 }
 
 .nav-secondary li a {
-  transition: color 0.2s linear;
+  transition: color 0.5s linear;
 }
 
 .nav-secondary li a:hover {
@@ -428,6 +387,7 @@ body a {
   margin-bottom: 16px;
   background: #1b1927 url('../images/banners/banner-06.jpg') no-repeat right
     center;
+
   min-height: 322px;
   padding: 50px 0 0 50px;
   color: #aeaeae;
@@ -468,7 +428,7 @@ body a {
   display: block;
   color: #ff6b6b;
   margin-bottom: 16px;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .footer-contact {
@@ -484,12 +444,12 @@ body a {
   font-weight: 500;
 }
 
-.footer-contact p:nth-of-type(2) {
+.footer-contact p:last-child {
   text-transform: initial;
   line-height: 17px;
 }
 
-.footer-contact p:nth-of-type(2) a:nth-of-type(2) {
+.footer-contact p:last-child a:nth-of-type(2) {
   color: #ff6b6b;
 }
 
@@ -502,8 +462,6 @@ body a {
 .footer-bottom p {
   margin-bottom: 16px;
 }
-
-/* content */
 
 .header-main {
   height: 572px;
@@ -570,7 +528,7 @@ body a {
 
 .content-main h1 {
   text-align: center;
-  color: #000000;
+  color: #000;
   font-weight: 300;
   font-size: 30px;
   margin-bottom: 24px;
@@ -590,23 +548,21 @@ body a {
 }
 
 .product-tiles {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
 }
 
 .product-tile {
-  width: 27.386541%;
+  width: 27.386541%; /*1278 / 350 * 100*/
 }
 
 .product-tile .product-tile-image img {
   width: 100%;
 }
 
-/* 350 * 100 / 1278  regula de 3 simpla */
-
 .product-tile .product-title a {
   font-size: 24px;
-  color: #000000;
+  color: #000;
   font-weight: 500;
 }
 
@@ -639,6 +595,7 @@ body a {
   display: block;
   font-size: 18px;
   text-decoration: line-through;
+  font-weight: 300;
 }
 
 .product-tile .product-tile-price {
@@ -661,6 +618,7 @@ body a {
   border-radius: 40px;
   padding: 12px 24px;
   font-family: Roboto, sans-serif;
+  text-transform: uppercase;
   color: #ff6b6b;
   transition: background-color 0.2s linear, color 0.2s linear;
   cursor: pointer;
@@ -673,4 +631,14 @@ body a {
 
 .product-tile-badge {
   display: none;
+}
+
+.home-payment ul {
+  text-align: center;
+  width: 320px;
+  margin: 24px auto;
+}
+
+.home-payment li {
+  display: inline-block;
 }
