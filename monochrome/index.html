@@ -12,6 +12,12 @@
     content="width=device-width, initial-scale=1.0"
   >
   <title>Monochrome</title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -90,7 +96,7 @@
               type="search"
               name="q"
               id="search"
-              placeholder="    Search"
+              placeholder="      Search"
             >
             <!-- nu stiu cum sa fac butonul sa nu se vada, din ce am citit merge si fara buton cu "Enter" in loc de submit -->
 
@@ -185,10 +191,10 @@
   </header>
   <!-- /.header -->
 
-  <main class="content">
+  <main class="content container">
     <section class="home-catalog-prieview">
       <header>
-        <hr>
+        <div class="h-line"></div>
         <h1>New Stuff</h1>
       </header>
 
@@ -679,21 +685,22 @@
           </div>
         </article>
         <!-- /.product-tile -->
-
-        <footer>
-          <a
-            href=""
-            title="View all"
-          >
-            <button
-              class="view-all-button"
-              title="View all"
-              type="button"
-            >view all</button>
-          </a>
-        </footer>
       </main>
       <!-- /.product-tiles -->
+
+      <footer>
+        <a
+          href=""
+          title="View all"
+        >
+          <button
+            class="view-all-button"
+            title="View all"
+            type="button"
+          >view all</button>
+        </a>
+      </footer>
+
     </section>
     <!-- /.home-catalog-prieview -->
 
@@ -848,28 +855,28 @@
           </div>
         </article>
         <!-- /.product-tile -->
-
-        <footer>
-          <a
-            href=""
-            title="View all"
-          >
-            <button
-              class="view-all-button"
-              title="View all"
-              type="button"
-            >view all</button>
-          </a>
-        </footer>
       </main>
       <!-- /.product-tiles -->
+
+      <footer>
+        <a
+          href=""
+          title="View all"
+        >
+          <button
+            class="view-all-button"
+            title="View all"
+            type="button"
+          >view all</button>
+        </a>
+      </footer>
     </section>
     <!-- /.home-catalog-prieview -->
   </main>
   <!-- /.content -->
 
   <footer class="footer">
-    <div class="footer-menu-contact">
+    <div class="footer-menu container">
       <div class="footer-menu-contact-direct">
         <ul>
           <li>
@@ -898,137 +905,139 @@
       </div>
       <!-- /.footer-menu-contact-direct -->
 
-      <div class="footer-menu-subscribe">
-        <form action="/">
-          <label for="footer-subscribe">sign up for our newsletter</label><br>
-          <input
-            type="email"
-            name="footer-subscribe"
-            id="footer-subscribe"
-            required
-          ><br>
-          <button
-            type="submit"
-            name="footer-submit"
-            class="footer-submit"
-          >Submit</button>
-        </form>
-      </div>
-      <!-- /.footer-menu-subscribe -->
-
-      <div class="footer-menu-contact-icons">
+      <div class="footer-menu-info">
         <ul>
           <li>
             <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Youtube"
-            ><i class="fab fa-youtube"></i>
+              href=""
+              title="style & fit advice"
+            >style &amp; fit advice
             </a>
           </li>
-
           <li>
             <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Twitter"
-            ><i class="fab fa-twitter"></i>
+              href=""
+              title="faqs"
+            >faqs</a>
+          </li>
+          <li>
+            <a
+              href=""
+              title="delivery"
+            >delivery
             </a>
           </li>
-
           <li>
             <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Facebook"
-            ><i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Instagram"
-            ><i class="fab fa-instagram-square"></i>
+              href=""
+              title="exchanges & returns"
+            >exchanges &amp; returns
             </a>
           </li>
         </ul>
       </div>
-      <!-- /.footer-contact-icons -->
-    </div>
-    <!-- /.footer-menu-contact -->
+      <!-- /.footer-menu-info -->
 
-    <div class="footer-menu-info">
-      <ul>
-        <li>
-          <a
-            href=""
-            title="style & fit advice"
-          >style &amp; fit advice
-          </a>
-        </li>
-        <li>
-          <a
-            href=""
-            title="faqs"
-          >faqs</a>
-        </li>
-        <li>
-          <a
-            href=""
-            title="delivery"
-          >delivery
-          </a>
-        </li>
-        <li>
-          <a
-            href=""
-            title="exchanges & returns"
-          >exchanges &amp; returns
-          </a>
-        </li>
-      </ul>
-    </div>
-    <!-- /.footer-menu-info -->
+      <div class="footer-menu-about">
+        <ul>
+          <li>
+            <a
+              href=""
+              title="about us"
+            >about us
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              title="careers"
+            >careers
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              title="affiliates"
+            >affiliates
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              title="advertising"
+            >advertising
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.footer-menu-about -->
 
-    <div class="footer-menu-about">
-      <ul>
-        <li>
-          <a
-            href=""
-            title="about us"
-          >about us
-          </a>
-        </li>
-        <li>
-          <a
-            href=""
-            title="careers"
-          >careers
-          </a>
-        </li>
-        <li>
-          <a
-            href=""
-            title="affiliates"
-          >affiliates
-          </a>
-        </li>
-        <li>
-          <a
-            href=""
-            title="advertising"
-          >advertising
-          </a>
-        </li>
-      </ul>
+      <div class="social-newsletter">
+        <div class="footer-menu-subscribe">
+          <form action="/">
+            <label for="footer-subscribe">sign up for our newsletter</label><br>
+            <input
+              type="email"
+              name="footer-subscribe"
+              id="footer-subscribe"
+              required
+            ><br>
+            <button
+              type="submit"
+              name="footer-submit"
+              class="footer-submit"
+            >Submit</button>
+          </form>
+        </div>
+        <!-- /.footer-menu-subscribe -->
+
+        <div class="footer-menu-contact-icons">
+          <ul>
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Youtube"
+              ><i class="fab fa-youtube"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Twitter"
+              ><i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+              ><i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Instagram"
+              ><i class="fab fa-instagram-square"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.footer-contact-icons -->
+      </div>
+      <!-- /.social-newsletter -->
     </div>
-    <!-- /.footer-menu-about -->
   </footer>
   <!-- /.footer -->
 </body>
